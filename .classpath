@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/Ari Tuhkala/git/PROFIT-oliojava/jar/Graphics.jar">
+	<classpathentry kind="lib" path="C:/Users/backmark/git/PROFIT-oliojava/jar/Graphics.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="http://users.jyu.fi/~vesal/kurssit/ohj1/graphicsdoc/"/>
 		</attributes>
