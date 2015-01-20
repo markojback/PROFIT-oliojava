@@ -1,5 +1,7 @@
 package markob;
 
+//t‰‰ j‰i yrityksen asteelle
+
 public class ErotteletSanat {
     
     public static Arraylist(String) listaa(String syoteMerkkijono){
