@@ -4,16 +4,17 @@ public class Fibonacci {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        int lukumaara=10;
+        int lukumaara=11;
         fibonacciwhile(lukumaara);
         System.out.print("\n");
         fibonaccifor(lukumaara);
-    }
+        System.out.print("\n");
+        for (int i=0; i<lukumaara ; ++i)
+            System.out.print(fibonaccirekursio(i) + " ");
+        }
 
     public static void fibonacciwhile(int loop){
-        int vanhaArvo = 1;
-        int edellinenVanhaArvo = 0;
-        int n = 0;
+        int vanhaArvo = 1, edellinenVanhaArvo = 0, n=0;
         do{
             int nykyArvo = edellinenVanhaArvo;
             edellinenVanhaArvo = vanhaArvo;
@@ -33,4 +34,12 @@ public class Fibonacci {
             System.out.print(nykyArvo+" ");
         }
     }
+    
+    public static int fibonaccirekursio(int arvo){
+        if (arvo==0) return 0;
+        else if (arvo<3) return 1;
+        else
+              return fibonaccirekursio(arvo-1)+fibonaccirekursio(arvo-2);
+        }
+        
 }
